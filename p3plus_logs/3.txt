@@ -1,0 +1,309 @@
+nRF Connect, 2020-09-03
+No name (5A:26:59:8D:36:86)
+I	19:44:06.408	[Server] Server started
+V	19:44:06.452	Heart Rate (0x180D)
+- Heart Rate Measurement [N] (0x2A37)
+   Client Characteristic Configuration (0x2902)
+- Body Sensor Location [R] (0x2A38)
+Battery Service (0x180F)
+- Battery Level [N R] (0x2A19)
+   Client Characteristic Configuration (0x2902)
+Device Information (0x180A)
+- Manufacturer Name String [R] (0x2A29)
+Nordic UART Service (6e400001-b5a3-f393-e0a9-e50e24dcca9e)
+- RX Characteristic [W WNR] (6e400002-b5a3-f393-e0a9-e50e24dcca9e)
+- TX Characteristic [N] (6e400003-b5a3-f393-e0a9-e50e24dcca9e)
+   Client Characteristic Configuration (0x2902)
+Secure DFU Service (0xFE59)
+- Buttonless DFU [I W] (8ec90003-f315-4f60-9fb8-838830daea50)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (be940000-7333-be46-b7ae-689e71722bd5)
+- Unknown Characteristic [I W] (be940001-7333-be46-b7ae-689e71722bd5)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W WNR] (be940002-7333-be46-b7ae-689e71722bd5)
+- Unknown Characteristic [I] (be940003-7333-be46-b7ae-689e71722bd5)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (0000fee7-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R] (0000fec9-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I R] (0000fea1-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [I R W] (0000fea2-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+D	19:44:06.452	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:44:06.452	[Server] Device with address 5A:26:59:8D:36:86 connected
+V	19:44:06.633	Connecting to 5A:26:59:8D:36:86...
+D	19:44:06.633	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE) (hidden)
+D	19:44:06.664	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:44:06.664	Connected to 5A:26:59:8D:36:86
+V	19:44:06.770	Discovering services...
+D	19:44:06.770	gatt.discoverServices()
+D	19:44:07.012	[Callback] Services discovered with status: 0
+I	19:44:07.012	Services discovered
+V	19:44:07.020	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000046a-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R W] (0000046c-0000-1000-8000-00805f9b34fb)
+D	19:44:07.686	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=1, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:44:07.686	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:44:07.687	[Server] "Indications enabled" received
+D	19:44:07.687	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:44:07.689	[Server] Response sent
+D	19:44:07.836	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=2, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:44:07.836	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:44:07.836	[Server] "Indications enabled" received
+D	19:44:07.836	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:44:07.838	[Server] Response sent
+D	19:44:07.986	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=3, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200080047436FEC)
+I	19:44:07.986	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-00-08-00-47-43-6F-EC
+A	19:44:07.986	[Server] "(0x) 02-00-08-00-47-43-6F-EC" received
+D	19:44:07.986	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:44:07.988	[Server] Response sent
+D	19:44:51.989	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=4, prepareWrite=false, responseNeeded=true, offset=0, value=0x01150700010E89)
+I	19:44:51.989	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 01-15-07-00-01-0E-89
+A	19:44:51.990	[Server] "(0x) 01-15-07-00-01-0E-89" received
+D	19:44:51.990	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:44:51.991	[Server] Response sent
+D	19:50:21.015	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:50:21.015	[Server] Device disconnected
+D	19:50:21.015	[Callback] Connection state changed with status: 19 and new state: DISCONNECTED (0)
+W	19:50:21.015	Connection terminated by peer (status 19)
+I	19:50:21.015	Disconnected
+D	19:50:21.140	gatt.refresh() (hidden)
+D	19:50:49.153	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:50:49.153	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:50:49.153	gatt.close()
+D	19:50:49.159	wait(200)
+V	19:50:49.362	Connecting to 5A:26:59:8D:36:86...
+D	19:50:49.362	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE) (hidden)
+D	19:50:49.388	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:50:49.388	[Server] Device disconnected
+D	19:50:50.712	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:50:50.712	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:50:50.713	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:50:50.713	Connected to 5A:26:59:8D:36:86
+V	19:50:50.749	Discovering services...
+D	19:50:50.749	gatt.discoverServices()
+D	19:50:51.428	[Callback] Services discovered with status: 0
+I	19:50:51.428	Services discovered
+V	19:50:51.436	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000046a-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R W] (0000046c-0000-1000-8000-00805f9b34fb)
+D	19:50:52.453	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=1, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:50:52.453	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:50:52.453	[Server] "Indications enabled" received
+D	19:50:52.453	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:50:52.455	[Server] Response sent
+D	19:50:52.552	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=2, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:50:52.552	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:50:52.552	[Server] "Indications enabled" received
+D	19:50:52.552	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:50:52.555	[Server] Response sent
+D	19:50:52.701	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=3, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200080047436FEC)
+I	19:50:52.702	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-00-08-00-47-43-6F-EC
+A	19:50:52.702	[Server] "(0x) 02-00-08-00-47-43-6F-EC" received
+D	19:50:52.702	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:50:52.703	[Server] Response sent
+D	19:51:05.404	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=4, prepareWrite=false, responseNeeded=true, offset=0, value=0x01150700026DB9)
+I	19:51:05.404	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 01-15-07-00-02-6D-B9
+A	19:51:05.404	[Server] "(0x) 01-15-07-00-02-6D-B9" received
+D	19:51:05.404	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:51:05.406	[Server] Response sent
+D	19:51:54.213	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:51:54.213	[Server] Device disconnected
+D	19:51:54.214	[Callback] Connection state changed with status: 19 and new state: DISCONNECTED (0)
+W	19:51:54.214	Connection terminated by peer (status 19)
+I	19:51:54.214	Disconnected
+D	19:51:54.352	gatt.refresh() (hidden)
+D	19:52:20.529	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:52:20.529	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:52:20.529	gatt.close()
+D	19:52:20.532	wait(200)
+V	19:52:20.734	Connecting to 5A:26:59:8D:36:86...
+D	19:52:20.734	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE) (hidden)
+D	19:52:20.790	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:52:20.790	[Server] Device disconnected
+D	19:52:20.791	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:52:20.791	[Server] Device disconnected
+D	19:52:20.818	[Callback] Connection state changed with status: 133 and new state: DISCONNECTED (0)
+E	19:52:20.818	Error 133 (0x85): GATT ERROR
+I	19:52:20.818	Disconnected
+D	19:52:22.645	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:52:22.645	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:52:22.645	gatt.close()
+D	19:52:22.651	wait(200)
+V	19:52:22.853	Connecting to 5A:26:59:8D:36:86...
+D	19:52:22.854	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE) (hidden)
+D	19:52:22.895	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:52:22.895	Connected to 5A:26:59:8D:36:86
+V	19:52:22.945	Discovering services...
+D	19:52:22.945	gatt.discoverServices()
+D	19:52:23.566	[Callback] Services discovered with status: 0
+I	19:52:23.566	Services discovered
+V	19:52:23.579	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000046a-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R W] (0000046c-0000-1000-8000-00805f9b34fb)
+D	19:52:24.584	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=1, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:52:24.584	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:52:24.584	[Server] "Indications enabled" received
+D	19:52:24.584	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:52:24.587	[Server] Response sent
+D	19:52:24.707	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=2, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:52:24.707	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:52:24.707	[Server] "Indications enabled" received
+D	19:52:24.707	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:52:24.708	[Server] Response sent
+D	19:52:25.059	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=3, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200080047436FEC)
+I	19:52:25.059	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-00-08-00-47-43-6F-EC
+A	19:52:25.060	[Server] "(0x) 02-00-08-00-47-43-6F-EC" received
+D	19:52:25.060	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:52:25.061	[Server] Response sent
+D	19:52:34.309	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=4, prepareWrite=false, responseNeeded=true, offset=0, value=0x01150700034CA9)
+I	19:52:34.309	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 01-15-07-00-03-4C-A9
+A	19:52:34.309	[Server] "(0x) 01-15-07-00-03-4C-A9" received
+D	19:52:34.309	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:52:34.311	[Server] Response sent
+D	19:53:51.771	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:53:51.771	[Server] Device disconnected
+D	19:53:51.772	[Callback] Connection state changed with status: 19 and new state: DISCONNECTED (0)
+W	19:53:51.772	Connection terminated by peer (status 19)
+I	19:53:51.772	Disconnected
+D	19:53:51.909	gatt.refresh() (hidden)
+D	19:54:24.125	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:54:24.126	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:54:24.126	gatt.close()
+D	19:54:24.130	wait(200)
+V	19:54:24.331	Connecting to 5A:26:59:8D:36:86...
+D	19:54:24.332	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE) (hidden)
+D	19:54:24.360	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:54:24.360	[Server] Device disconnected
+D	19:54:25.428	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:54:25.428	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:54:25.429	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:54:25.429	Connected to 5A:26:59:8D:36:86
+V	19:54:25.457	Discovering services...
+D	19:54:25.457	gatt.discoverServices()
+D	19:54:26.290	[Callback] Services discovered with status: 0
+I	19:54:26.290	Services discovered
+V	19:54:26.308	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000046a-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R W] (0000046c-0000-1000-8000-00805f9b34fb)
+D	19:54:27.431	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=1, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:54:27.431	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:54:27.431	[Server] "Indications enabled" received
+D	19:54:27.431	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:54:27.433	[Server] Response sent
+D	19:54:27.679	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=2, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:54:27.679	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:54:27.679	[Server] "Indications enabled" received
+D	19:54:27.679	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:54:27.681	[Server] Response sent
+D	19:54:27.980	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=3, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200080047436FEC)
+I	19:54:27.980	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-00-08-00-47-43-6F-EC
+A	19:54:27.980	[Server] "(0x) 02-00-08-00-47-43-6F-EC" received
+D	19:54:27.980	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:54:27.982	[Server] Response sent
+D	19:54:36.381	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=4, prepareWrite=false, responseNeeded=true, offset=0, value=0x0115070004ABD9)
+I	19:54:36.381	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 01-15-07-00-04-AB-D9
+A	19:54:36.381	[Server] "(0x) 01-15-07-00-04-AB-D9" received
+D	19:54:36.381	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:54:36.383	[Server] Response sent
+D	19:55:39.403	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=5, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:55:39.403	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:55:39.403	[Server] "Indications enabled" received
+D	19:55:39.403	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:55:39.404	[Server] Response sent
+D	19:55:39.783	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=6, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:55:39.783	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:55:39.783	[Server] "Indications enabled" received
+D	19:55:39.783	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:55:39.785	[Server] Response sent
+D	19:55:42.182	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=7, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200080047436FEC)
+I	19:55:42.182	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-00-08-00-47-43-6F-EC
+A	19:55:42.182	[Server] "(0x) 02-00-08-00-47-43-6F-EC" received
+D	19:55:42.182	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:55:42.184	[Server] Response sent
+D	19:55:42.483	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=8, prepareWrite=false, responseNeeded=true, offset=0, value=0x0201080047469B16)
+I	19:55:42.483	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-01-08-00-47-46-9B-16
+A	19:55:42.483	[Server] "(0x) 02-01-08-00-47-46-9B-16" received
+D	19:55:42.483	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:55:42.485	[Server] Response sent
+D	19:55:42.782	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=9, prepareWrite=false, responseNeeded=true, offset=0, value=0x0309090000000290E9)
+I	19:55:42.782	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 03-09-09-00-00-00-02-90-E9
+A	19:55:42.782	[Server] "(0x) 03-09-09-00-00-00-02-90-E9" received
+D	19:55:42.782	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:55:42.784	[Server] Response sent
+D	19:55:51.140	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:55:51.140	[Server] Device disconnected
+D	19:55:51.141	[Callback] Connection state changed with status: 19 and new state: DISCONNECTED (0)
+W	19:55:51.141	Connection terminated by peer (status 19)
+I	19:55:51.141	Disconnected
+D	19:55:51.177	gatt.refresh() (hidden)
+D	19:56:18.609	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:56:18.609	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:56:18.609	gatt.close()
+D	19:56:18.616	wait(200)
+V	19:56:18.824	Connecting to 5A:26:59:8D:36:86...
+D	19:56:18.824	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE) (hidden)
+D	19:56:18.855	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:56:18.855	[Server] Device disconnected
+D	19:56:20.440	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:56:20.440	[Server] Device with address 5A:26:59:8D:36:86 connected
+D	19:56:20.441	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:56:20.441	Connected to 5A:26:59:8D:36:86
+V	19:56:20.476	Discovering services...
+D	19:56:20.476	gatt.discoverServices()
+D	19:56:21.168	[Callback] Services discovered with status: 0
+I	19:56:21.168	Services discovered
+V	19:56:21.194	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000046a-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R W] (0000046c-0000-1000-8000-00805f9b34fb)
+D	19:56:22.041	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=1, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:56:22.042	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:56:22.042	[Server] "Indications enabled" received
+D	19:56:22.042	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:56:22.044	[Server] Response sent
+D	19:56:22.141	[Server callback] Write request to descriptor 00002902-0000-1000-8000-00805f9b34fb (requestId=2, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200)
+I	19:56:22.141	[Server] WRITE REQUEST request for descriptor 00002902-0000-1000-8000-00805f9b34fb received, value: (0x) 02-00
+A	19:56:22.141	[Server] "Indications enabled" received
+D	19:56:22.141	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:56:22.143	[Server] Response sent
+D	19:56:22.240	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=3, prepareWrite=false, responseNeeded=true, offset=0, value=0x0200080047436FEC)
+I	19:56:22.240	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 02-00-08-00-47-43-6F-EC
+A	19:56:22.241	[Server] "(0x) 02-00-08-00-47-43-6F-EC" received
+D	19:56:22.241	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:56:22.242	[Server] Response sent
+D	19:56:31.392	[Server callback] Write request to characteristic be940001-7333-be46-b7ae-689e71722bd5 (requestId=4, prepareWrite=false, responseNeeded=true, offset=0, value=0x01150700058AC9)
+I	19:56:31.392	[Server] WRITE REQUEST request for characteristic be940001-7333-be46-b7ae-689e71722bd5 received, value: (0x) 01-15-07-00-05-8A-C9
+A	19:56:31.393	[Server] "(0x) 01-15-07-00-05-8A-C9" received
+D	19:56:31.393	server.sendResponse(GATT_SUCCESS, offset=0, value=null)
+V	19:56:31.394	[Server] Response sent
+D	19:57:25.653	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:57:25.653	[Server] Device disconnected
+D	19:57:25.654	[Callback] Connection state changed with status: 19 and new state: DISCONNECTED (0)
+W	19:57:25.654	Connection terminated by peer (status 19)
+I	19:57:25.654	Disconnected
+D	19:57:25.784	gatt.refresh() (hidden)

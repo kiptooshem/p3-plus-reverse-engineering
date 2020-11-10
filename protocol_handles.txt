@@ -1,0 +1,157 @@
+.field public static final AEROBICS_COACH:Ljava/lang/String; = "0305"
+
+.field public static final AEROBIC_EXERCISE_ONOFF:Ljava/lang/String; = "0111"
+
+.field public static final ALARM_CLOCK_SETTING:Ljava/lang/String; = "0101"
+
+.field public static final ANCS_ONOFF:Ljava/lang/String; = "0110"
+
+.field public static final ANSWER_OR_REJECT_PHONE:Ljava/lang/String; = "0402"
+
+.field public static final APP_EXIT:Ljava/lang/String; = "0304"
+
+.field public static final BIND_DEVICE:Ljava/lang/String; = "0306"
+
+.field public static final BLOCK_COMFIRM_RESPONSE:Ljava/lang/String; = "0580"
+
+.field public static final BLOODPRESSURE:Ljava/lang/String; = "0116"
+
+.field public static final BLOOD_OXYGEN_ONOFF_CONTROL:Ljava/lang/String; = "0310"
+
+.field public static final BLOOD_PRESSURE_CALIBRATION:Ljava/lang/String; = "0303"
+
+.field public static final BP_MEASUREMENT_ONOFF_CONTROL:Ljava/lang/String; = "0302"
+
+.field public static final BRIGHTNESS_CONTROL:Ljava/lang/String; = "0114"
+
+.field public static final CONTROL_THE_CAMERA:Ljava/lang/String; = "0403"
+
+.field public static final CONTROL_THE_MUSIC:Ljava/lang/String; = "0404"
+
+.field public static final CURRENT_BLOOD_PRESSURE:Ljava/lang/String; = "0206"
+
+.field public static final CURRENT_HEART_RATE:Ljava/lang/String; = "0205"
+
+.field public static final DATA_POST_COMMAND_RESPONSE:Ljava/lang/String; = "0309"
+
+.field public static final DELETE_BLOOD_PRESSURE_DATA:Ljava/lang/String; = "0543"
+
+.field public static final DELETE_HEART_RATE_DATA:Ljava/lang/String; = "0542"
+
+.field public static final DELETE_SLEEP_DATA:Ljava/lang/String; = "0541"
+
+.field public static final DELETE_SPORT_DATA:Ljava/lang/String; = "0540"
+
+.field public static final DEVICE_INFO:Ljava/lang/String; = "0200"
+
+.field public static final DEVICE_MAC:Ljava/lang/String; = "0202"
+
+.field public static final DEVICE_NAME:Ljava/lang/String; = "0203"
+
+.field public static final DONOT_DISTURB:Ljava/lang/String; = "010F"
+
+.field public static final ELECTROCARDIOGRAM:Ljava/lang/String; = "0605"
+
+.field public static final FINDBAND:Ljava/lang/String; = "0300"
+
+.field public static final FIND_MOBILE_ONOFF:Ljava/lang/String; = "010D"
+
+.field public static final FIND_PHONE_RESPONSE:Ljava/lang/String; = "0400"
+
+.field public static final FIRMWARE_UPDATE:Ljava/lang/String; = "00"
+
+.field public static final FIRMWARE_UPDATE_LOCAL:Ljava/lang/String; = "0001"
+
+.field public static final FIRMWARE_UPDATE_THIRD:Ljava/lang/String; = "0000"
+
+.field public static final HEART_RATE_MONITOR:Ljava/lang/String; = "010C"
+
+.field public static final HEART_RATE_REMIND_SETTING:Ljava/lang/String; = "010B"
+
+.field public static final HR_MEASUREMENT_ONOFF_CONTROL:Ljava/lang/String; = "0301"
+
+.field public static final LANGUAGE_SETTING:Ljava/lang/String; = "0112"
+
+.field public static final LEFT_OR_RIGHT_HAND_SETTING:Ljava/lang/String; = "0108"
+
+.field public static final LEFT_THE_WRIST_TO_BRIGHT:Ljava/lang/String; = "0113"
+
+.field public static final LONG_SIT_SETTING:Ljava/lang/String; = "0105"
+
+.field public static final MESSAGE_NOTIFICATION:Ljava/lang/String; = "0308"
+
+.field public static final MOBILE_OS_SETTING:Ljava/lang/String; = "0109"
+
+.field public static final NOTIFYCATION_ONOFF_SETTING:Ljava/lang/String; = "010A"
+
+.field public static final OPTOELECTRONIC_WAVEFORM:Ljava/lang/String; = "0604"
+
+.field public static final PREVENT_LOST_PARAMS_SETTING:Ljava/lang/String; = "0107"
+
+.field public static final PREVENT_LOST_RESPONSE:Ljava/lang/String; = "0401"
+
+.field public static final PREVENT_LOST_SETTING:Ljava/lang/String; = "0106"
+
+.field public static final RECOVER_TO_DEFAULT:Ljava/lang/String; = "010E"
+
+.field public static final RESPIRATORY_RATE_ONOFF_CONTROL:Ljava/lang/String; = "0311"
+
+.field public static final SAMPLING_FREQ:Ljava/lang/String; = "030A"
+
+.field public static final SKIN_COLOR:Ljava/lang/String; = "0115"
+
+.field public static final SPORTS_MODE:Ljava/lang/String; = "0606"
+
+.field public static final SUPPORT_LIST:Ljava/lang/String; = "0201"
+
+.field public static final SYNCHRO_ALL_SWITCH_RESPONSE:Ljava/lang/String; = "0500"
+
+.field public static final SYNCHRO_BLOOD_OXYGEN_WITHOUT_RES:Ljava/lang/String; = "0602"
+
+.field public static final SYNCHRO_HEART_RATE_WITHOUT_RES:Ljava/lang/String; = "0601"
+
+.field public static final SYNCHRO_HISTORY_BLOOD_PRESSURE_DATA:Ljava/lang/String; = "0508"
+
+.field public static final SYNCHRO_HISTORY_HEART_RATE_DATA:Ljava/lang/String; = "0506"
+
+.field public static final SYNCHRO_HISTORY_SLEEP_DATA:Ljava/lang/String; = "0504"
+
+.field public static final SYNCHRO_HISTORY_SPORT_DATA:Ljava/lang/String; = "0502"
+
+.field public static final SYNCHRO_PRESSURE_HEART_RATE_WITHOUT_RES:Ljava/lang/String; = "0603"
+
+.field public static final SYNCHRO_STEP_DISTANCE_CALORIE_WITHOUT_RES:Ljava/lang/String; = "0600"
+
+.field public static final SYNCHRO_TODAY_BLOOD_PRESSURE_DATA:Ljava/lang/String; = "0507"
+
+.field public static final SYNCHRO_TODAY_HEART_RATE_DATA:Ljava/lang/String; = "0505"
+
+.field public static final SYNCHRO_TODAY_SLEEP_DATA:Ljava/lang/String; = "0503"
+
+.field public static final SYNCHRO_TODAY_SPORT_DATA:Ljava/lang/String; = "0501"
+
+.field public static final SamplingRate:Ljava/lang/String; = "030a"
+
+.field public static final SportType:Ljava/lang/String; = "030c"
+
+.field public static final TARGET_SETTING:Ljava/lang/String; = "0102"
+
+.field public static final TIME_SETTING:Ljava/lang/String; = "0100"
+
+.field public static final TestBlood:Ljava/lang/String; = "0302"
+
+.field public static final UNBIND_DEVICE:Ljava/lang/String; = "0307"
+
+.field public static final UNIT_SETTING:Ljava/lang/String; = "0104"
+
+.field public static final USER_INFO_SETTING:Ljava/lang/String; = "0103"
+
+.field public static final UpdateOptoelectronicWaveform:Ljava/lang/String; = "0604"
+
+.field public static final UpdateWaveData:Ljava/lang/String; = "030b"
+
+.field public static final WAVE_POST_COMMAND_RESPONSE:Ljava/lang/String; = "030B"
+
+.field public static final WEATHER:Ljava/lang/String; = "0312"
+
+.field public static final upppg:Ljava/lang/String; = "030f"
